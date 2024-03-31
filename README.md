@@ -7,7 +7,7 @@
 	remote: Create a pull request for 'master' on GitHub by visiting:
 	remote:      https://github.com/bjpcjp/scikit-image/pull/new/master
 ## notebooks
- applications
+- applications
 	- plot_3d_image_processing.ipynb
 		- load & display images
             - data prep (downsampling, normalized spacing)
@@ -29,9 +29,7 @@
          - normalize range per channel
          - explore slices (jupyter slider widget)
          - combine channel facetting and slice animation
-         
-	- plot_3d_structure_tensor.ipynb (Estimate anisotropy in a 3D microscopy image)
-         - 
+ 	- plot_3d_structure_tensor.ipynb (Estimate anisotropy in a 3D microscopy image)        - 
 	- plot_coins_segmentation.ipynb
 	- plot_colocalization_metrics.ipynb
 	- plot_cornea_spot_inpainting.ipynb
