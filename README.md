@@ -1,4 +1,12 @@
 # scikit-image
+## notes
+	remote: warning: See https://gh.io/lfs for more information.
+	remote: warning: File notebooks/applications/plot_3d_interaction.ipynb is 51.11 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+	remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+	remote: 
+	remote: Create a pull request for 'master' on GitHub by visiting:
+	remote:      https://github.com/bjpcjp/scikit-image/pull/new/master
+
 ## notebooks
 ─ applications
 	─ plot_3d_image_processing.ipynb
