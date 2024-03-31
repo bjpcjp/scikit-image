@@ -10,7 +10,22 @@
 ## notebooks
 ─ applications
 	─ plot_3d_image_processing.ipynb
-	─ plot_3d_interaction.ipynb
+		- load & display images
+            - data prep (downsampling, normalized spacing)
+            - python imshow 3D display error handler
+            - imshow 3D workaround (freeze one axis, get 3 pics)
+            - display (montage) helper
+            - explore slices (jupyter slider widget)
+            
+		- adjust exposure
+            - gamma correction (brightens/darkens)
+            - histogram equalization example
+            - explore slices (jupyter slider widget)
+            - plot image histograms, before/after equalization
+            - clipping pixel values
+    		- plotly express
+      
+	─ plot_3d_interaction.ipynb (kidney tissue)
 	─ plot_3d_structure_tensor.ipynb
 	─ plot_coins_segmentation.ipynb
 	─ plot_colocalization_metrics.ipynb
