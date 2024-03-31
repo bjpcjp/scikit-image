@@ -6,7 +6,6 @@
 	remote: 
 	remote: Create a pull request for 'master' on GitHub by visiting:
 	remote:      https://github.com/bjpcjp/scikit-image/pull/new/master
-
 ## notebooks
 ─ applications
 	─ plot_3d_image_processing.ipynb
@@ -16,7 +15,6 @@
             - imshow 3D workaround (freeze one axis, get 3 pics)
             - display (montage) helper
             - explore slices (jupyter slider widget)
-            
 		- adjust exposure
             - gamma correction (brightens/darkens)
             - histogram equalization example
@@ -24,7 +22,6 @@
             - plot image histograms, before/after equalization
             - clipping pixel values
     		- plotly express
-      
 	─ plot_3d_interaction.ipynb (kidney tissue)
 	─ plot_3d_structure_tensor.ipynb
 	─ plot_coins_segmentation.ipynb
