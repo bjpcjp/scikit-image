@@ -140,65 +140,50 @@
 	- plot_stitching.ipynb
 ---
 - segmentation
-	- plot_boundary_merge.ipynb
-	- plot_chan_vese.ipynb
-	- plot_compact_watershed.ipynb
+	- plot_boundary_merge.ipynb (Hierarchical Merging of Region Boundary RAGs)
+	- plot_chan_vese.ipynb (Chan-Vese segmentation. Used for poorly defined boundries.)
+	- plot_compact_watershed.ipynb (Find regular segments using compact watershed)
 	- plot_euler_number.ipynb
-	- plot_expand_labels.ipynb
-	- plot_extrema.ipynb
-	- plot_floodfill.ipynb
-	- plot_hausdorff_distance.ipynb
-	- plot_join_segmentations.ipynb
-	- plot_label.ipynb
-	- plot_marked_watershed.ipynb
-	- plot_mask_slic.ipynb
-	- plot_metrics.ipynb
-	- plot_morphsnakes.ipynb
-	- plot_multiotsu.ipynb
-	- plot_ncut.ipynb
-	- plot_niblack_sauvola.ipynb
-	- plot_peak_local_max.ipynb
-	- plot_perimeters.ipynb
-	- plot_rag_boundary.ipynb
-	- plot_rag_draw.ipynb
-	- plot_rag.ipynb
-	- plot_rag_mean_color.ipynb
+	- plot_expand_labels.ipynb (Expanding segmentation labels without overlap.)
+	- plot_extrema.ipynb (Detecting local extrema in an image.)
+	- plot_floodfill.ipynb ('paint bucket'.)
+	- plot_hausdorff_distance.ipynb (The max distance between any point on the first set and its nearest point on the second set, and vice-versa.)
+	- plot_join_segmentations.ipynb (Find the intersection of two segments)
+	- plot_label.ipynb (How to segment an image with image labelling)
+	- plot_marked_watershed.ipynb (How to build markers for watershed transforms)
+	- plot_mask_slic.ipynb (How to compare segmentations obtained with SLIC and its masked version maskSLIC)
+	- plot_metrics.ipynb (Evaluating segmentation metrics: watershed vs Canny vs Morphological geodesic)
+	- plot_morphsnakes.ipynb (MorphGAC vs MorphACWE for image segmentation)
+	- plot_multiotsu.ipynb (Multi-Otsu thresholding)
+	- plot_ncut.ipynb (Normalized cuts)
+	- plot_niblack_sauvola.ipynb (Niblack and Sauvola thresholding)
+	- plot_peak_local_max.ipynb (Finding local maxima)
+	- plot_perimeters.ipynb (Perimeter estimation - classic vs Crofton estimators)
+	- plot_rag_boundary.ipynb (Region boundary based RAGs)
+	- plot_rag_draw.ipynb (Drawing RAGs)
+	- plot_rag.ipynb (Demos merge_nodes function of a RAG.)
+	- plot_rag_mean_color.ipynb (Build a RAG, then merge regions which are similar in color.)
 	- plot_rag_merge.ipynb
 	- plot_random_walker_segmentation.ipynb
-	- plot_regionprops.ipynb
-	- plot_regionprops_table.ipynb
-	- plot_rolling_ball.ipynb
-	- plot_segmentations.ipynb
-	- plot_thresholding.ipynb
-	- plot_trainable_segmentation.ipynb
-	- plot_watershed.ipynb
+	- plot_regionprops.ipynb (Explore and visualize region properties with pandas)
+	- plot_regionprops_table.ipynb (Measure properties of labelled image regions)
+	- plot_rolling_ball.ipynb (Use rolling-ball algorithm for estimating background intensity)
+        - **NOTE**: a portion of this notebook uses the pywt package which isn't currently available?
+	- plot_segmentations.ipynb (Compares four low-level image segmentation methods)
+	- plot_thresholding.ipynb (Create a binary image from a grayscale image)
+	- plot_trainable_segmentation.ipynb (Trainable segmentation using local features and random forests)
+	- plot_watershed.ipynb (Watershed segmentation)
 ---
 - transform
 	- plot_edge_modes.ipynb (interpolation: edge modes)
-        - 'constant', 'edge', 'wrap', 'reflect', 'symmetric'
-	- plot_fundamental_matrix.ipynb (fundamental matrix estimation)
-        - The fundamental matrix relates corresponding points between a pair of uncalibrated images.
+	- plot_fundamental_matrix.ipynb (fundamental matrix relates corresponding points between a pair of uncalibrated images.)
 	- plot_geometric.ipynb (geometric transforms)
-        - basics (similarity, affine, projective and polynomial)
-        - image warping
-        - parameter estimation
 	- plot_matching.ipynb (image matching with RANSAC)
 	- plot_piecewise_affine.ipynb (piecewise affine transformations)
-        - example adds sinusoidal oscillation to row coordinates
 	- plot_pyramid.ipynb (building image pyramids with pyramid_gaussian)
-	- plot_radon_transform.ipynb
-        - generate a composite image for visualization
-        - building a sinogram
-        - reconstruction with FBP, including filters comparison
-        - reconstruction with SART
+	- plot_radon_transform.ipynb (sinograms, FBP, SART)
 	- plot_ransac.ipynb (line model estimation using RANSAC)
 	- plot_rescale.ipynb (rescale, resize, and downscale)
 	- plot_ssim.ipynb (structural similarity index)
 	- plot_swirl.ipynb (swirl effect)
-        - Image swirling is a non-linear image deformation that creates a whirlpool effect. 
 	- plot_transform_types.ipynb (homographies)
-        - Homographies are transformations of a Euclidean space that preserve the alignment of points.
-        - Euclidean (rigid) transformation
-        - Similarity transformation
-        - Affine transformation
-        - Projective transformation (homographies)
