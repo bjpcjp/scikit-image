@@ -174,15 +174,31 @@
 	- plot_watershed.ipynb
 ---
 - transform
-	- plot_edge_modes.ipynb
-	- plot_fundamental_matrix.ipynb
-	- plot_geometric.ipynb
-	- plot_matching.ipynb
-	- plot_piecewise_affine.ipynb
-	- plot_pyramid.ipynb
+	- plot_edge_modes.ipynb (interpolation: edge modes)
+        - 'constant', 'edge', 'wrap', 'reflect', 'symmetric'
+	- plot_fundamental_matrix.ipynb (fundamental matrix estimation)
+        - The fundamental matrix relates corresponding points between a pair of uncalibrated images.
+	- plot_geometric.ipynb (geometric transforms)
+        - basics (similarity, affine, projective and polynomial)
+        - image warping
+        - parameter estimation
+	- plot_matching.ipynb (image matching with RANSAC)
+	- plot_piecewise_affine.ipynb (piecewise affine transformations)
+        - example adds sinusoidal oscillation to row coordinates
+	- plot_pyramid.ipynb (building image pyramids with pyramid_gaussian)
 	- plot_radon_transform.ipynb
-	- plot_ransac.ipynb
-	- plot_rescale.ipynb
-	- plot_ssim.ipynb
-	- plot_swirl.ipynb
-	- plot_transform_types.ipynb
+        - generate a composite image for visualization
+        - building a sinogram
+        - reconstruction with FBP, including filters comparison
+        - reconstruction with SART
+	- plot_ransac.ipynb (line model estimation using RANSAC)
+	- plot_rescale.ipynb (rescale, resize, and downscale)
+	- plot_ssim.ipynb (structural similarity index)
+	- plot_swirl.ipynb (swirl effect)
+        - Image swirling is a non-linear image deformation that creates a whirlpool effect. 
+	- plot_transform_types.ipynb (homographies)
+        - Homographies are transformations of a Euclidean space that preserve the alignment of points.
+        - Euclidean (rigid) transformation
+        - Similarity transformation
+        - Affine transformation
+        - Projective transformation (homographies)
