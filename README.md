@@ -132,12 +132,12 @@
 	- plot_structuring_elements.ipynb
 	- plot_view_as_blocks.ipynb
 ---
-- registration
-	- plot_masked_register_translation.ipynb
-	- plot_opticalflow.ipynb
-	- plot_register_rotation.ipynb
-	- plot_register_translation.ipynb
-	- plot_stitching.ipynb
+- [registration](https://en.wikipedia.org/wiki/Image_registration)
+	- plot_masked_register_translation.ipynb (identify the relative shift between two similar images containing invalid data.)
+	- plot_opticalflow.ipynb (Registration using optical flow)
+	- plot_register_rotation.ipynb (Using Polar and Log-Polar Transformations)
+	- plot_register_translation.ipynb (Use phase cross-correlation to ID the relative shift between two similar-sized images)
+	- plot_stitching.ipynb (Assemble images with simple image stitching)
 ---
 - segmentation
 	- plot_boundary_merge.ipynb (Hierarchical Merging of Region Boundary RAGs)
