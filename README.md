@@ -105,26 +105,27 @@
 	- plot_windowed_histogram.ipynb
 ---
 - filters
-	- plot_attribute_operators.ipynb
-	- plot_blur_effect.ipynb
-	- plot_butterworth.ipynb
-	- plot_cycle_spinning.ipynb
-	- plot_deconvolution.ipynb
-	- plot_denoise.ipynb
-	- plot_denoise_wavelet.ipynb
-	- plot_dog.ipynb
-	- plot_entropy.ipynb
-	- plot_hysteresis.ipynb
-	- plot_inpaint.ipynb
-	- plot_j_invariant.ipynb
-	- plot_j_invariant_tutorial.ipynb
-	- plot_nonlocal_means.ipynb
+	- plot_attribute_operators.ipynb (family of contour preserving filtering operations in mathematical morphology)
+	- plot_blur_effect.ipynb (estimate blur strength)
+	- plot_butterworth.ipynb (butterworth filtering)
+	- plot_cycle_spinning.ipynb (Shift-invariant wavelet denoising)
+        - **ensure PyWavelets is installed**
+	- plot_deconvolution.ipynb (Image deconvolution using the Richardson-Lucy algo)
+	- plot_denoise.ipynb (Image denoising with __total variation__, __bilateral__, and __wavelet__ filters)
+	- plot_denoise_wavelet.ipynb (Wavelet denoising with VisuShrink & BayesShrink algos)
+	- plot_dog.ipynb (Band-pass filtering - Difference of Gaussians)
+	- plot_entropy.ipynb (Image entropy)
+	- plot_hysteresis.ipynb (hysteresis thresholding vs normal thresholding) 
+	- plot_inpaint.ipynb (reconstructing lost or deteriorated parts of images and videos)
+	- plot_j_invariant.ipynb (calibrating Denoisers Using J-Invariance)
+	- plot_j_invariant_tutorial.ipynb (calibrating Denoisers Using J-Invariance)
+	- plot_nonlocal_means.ipynb (Non-local means denoising for preserving textures)
 	- plot_phase_unwrap.ipynb
-	- plot_rank_mean.ipynb
-	- plot_restoration.ipynb
-	- plot_tophat.ipynb
-	- plot_unsharp_mask.ipynb
-	- plot_window.ipynb
+	- plot_rank_mean.ipynb (compares 3 mean filters of the rank filter package)
+	- plot_restoration.ipynb (Deconvolve a noisy image using Wiener and unsupervised Wiener algorithms.)
+	- plot_tophat.ipynb (Removing small objects in grayscale images with a top hat filter)
+	- plot_unsharp_mask.ipynb (linear image sharpening technique)
+	- plot_window.ipynb (Image windowing with FFTs)
 ---
 - numpy_operations
 	- plot_camera_numpy.ipynb
