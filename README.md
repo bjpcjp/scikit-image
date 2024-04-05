@@ -8,23 +8,23 @@
 	remote:      https://github.com/bjpcjp/scikit-image/pull/new/master
 ## notebooks
 - applications
-	- [3D image processing](plot_3d_image_processing.ipynb)
-	- [kidney tissue 3D](plot_3d_interaction.ipynb)
- 	- [Estimate anisotropy in a 3D microscopy image](plot_3d_structure_tensor.ipynb)        - 
-	- [coins segmentation](plot_coins_segmentation.ipynb)
-	- [colocalization metrics](plot_colocalization_metrics.ipynb)
-	- [cornea spot inpainting](plot_cornea_spot_inpainting.ipynb)
-	- [face detection](plot_face_detection.ipynb)
-	- [fluorescence](plot_fluorescence_nuclear_envelope.ipynb)
-	- [haar extraction](plot_haar_extraction_selection_classification.ipynb)
-	- [human mitosis](plot_human_mitosis.ipynb)
-	- [image comparison](plot_image_comparison.ipynb)
-	- [morphology](plot_morphology.ipynb)
-	- [pixel graphs](plot_pixel_graphs.ipynb)
-	- [rank filters](plot_rank_filters.ipynb)
-	- [solidification](plot_solidification_tracking.ipynb)
-	- [text](plot_text.ipynb)
-	- [thresholding](plot_thresholding_guide.ipynb)
+	- [3D image processing](notebooks/applications/plot_3d_image_processing.ipynb)
+	- [kidney tissue 3D](notebooks/applications/plot_3d_interaction.ipynb)
+ 	- [Estimate anisotropy in a 3D microscopy image](notebooks/applications/plot_3d_structure_tensor.ipynb)        - 
+	- [coins segmentation](notebooks/applications/plot_coins_segmentation.ipynb)
+	- [colocalization metrics](notebooks/applications/plot_colocalization_metrics.ipynb)
+	- [cornea spot inpainting](notebooks/applications/plot_cornea_spot_inpainting.ipynb)
+	- [face detection](notebooks/applications/plot_face_detection.ipynb)
+	- [fluorescence](notebooks/applications/plot_fluorescence_nuclear_envelope.ipynb)
+	- [haar extraction](notebooks/applications/plot_haar_extraction_selection_classification.ipynb)
+	- [human mitosis](notebooks/applications/plot_human_mitosis.ipynb)
+	- [image comparison](notebooks/applications/plot_image_comparison.ipynb)
+	- [morphology](notebooks/applications/plot_morphology.ipynb)
+	- [pixel graphs](notebooks/applications/plot_pixel_graphs.ipynb)
+	- [rank filters](notebooks/applications/plot_rank_filters.ipynb)
+	- [solidification](notebooks/applications/plot_solidification_tracking.ipynb)
+	- [text](notebooks/applications/plot_text.ipynb)
+	- [thresholding](notebooks/applications/plot_thresholding_guide.ipynb)
 ---
 - color_exposure
 	- [adaptive histogram equalization (AHE)](notebooks/color_exposure/plot_adapt_hist_eq_3d.ipynb)
