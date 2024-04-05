@@ -84,7 +84,7 @@
 	- plot_skeleton.ipynb
 ---
 - features_detection
-	- plot_blob.ipynb
+	- plot_blob.ipynb (Blob detection - 3 alternate algorithms)
 	- plot_brief.ipynb
 	- plot_censure.ipynb
 	- plot_corner.ipynb
@@ -176,7 +176,7 @@
 	- plot_watershed.ipynb (Watershed segmentation)
 ---
 - transform
-	- plot_edge_modes.ipynb (interpolation: edge modes)
+	- [interpolation: edge modes](notebooks/transform/plot_edge_modes.ipynb)
 	- plot_fundamental_matrix.ipynb (fundamental matrix relates corresponding points between a pair of uncalibrated images.)
 	- plot_geometric.ipynb (geometric transforms)
 	- plot_matching.ipynb (image matching with RANSAC)
