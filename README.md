@@ -109,9 +109,9 @@
 	- [Image windowing with FFTs](plot_window.ipynb) 
 ---
 - numpy_operations
-	- [camera](plot_camera_numpy.ipynb)
+	- [simple NumPy image operations](plot_camera_numpy.ipynb)
 	- [footprint decomposition](plot_footprint_decompositions.ipynb)
-	- [structuring elements](plot_structuring_elements.ipynb)
+	- [footprint generation](plot_structuring_elements.ipynb)
 	- [view as blocks](plot_view_as_blocks.ipynb)
 ---
 - [registration](https://en.wikipedia.org/wiki/Image_registration)
