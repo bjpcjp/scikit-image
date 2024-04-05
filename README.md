@@ -1,4 +1,4 @@
-(# scikit-image
+# scikit-image
 ## notes
 	remote: warning: See https://gh.io/lfs for more information.
 	remote: warning: File notebooks/applications/plot_3d_interaction.ipynb) is 51.11 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
@@ -46,8 +46,8 @@
 	- [stereo and facial images](notebooks/data/plot_specific.ipynb)
 ---
 - developers
-	- [](plot_max_tree.ipynb)
-	- [](plot_threshold_li.ipynb)
+	- [Max trees](notebooks/developers/plot_max_tree.ipynb)
+	- [Background/foreground thresholds](notebooks/developers/plot_threshold_li.ipynb)
 ---
 - edges
 	- [active contours](plot_active_contours.ipynb)
